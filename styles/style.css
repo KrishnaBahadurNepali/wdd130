@@ -2,8 +2,7 @@ nav {
     background-color: steelblue;
     padding: 10px;
 }
-nav a 
-{
+nav a {
     color: white;
     display: block;
     padding: 20px;
@@ -22,7 +21,7 @@ p {
     padding: 10px;
 }
 
-main{
+main {
     max-width: 840px;    
 }
 
@@ -46,7 +45,7 @@ main img    {
     height: auto;
 }
 
-p{
+p {
     padding: 0;
 }
  footer {
