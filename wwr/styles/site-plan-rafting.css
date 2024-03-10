@@ -102,8 +102,6 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
 }
@@ -113,7 +111,10 @@ nav a {
   text-decoration: none;
   padding: 10px;
 }
-nav a:link, nav a:visited {
+nav a:link  {
+  color: var(--nav-link-color);
+}
+ nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
