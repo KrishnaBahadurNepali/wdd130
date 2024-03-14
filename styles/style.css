@@ -49,12 +49,12 @@ aside {
 }
 aside h2{
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 30px;
+    left: 110px;
 }  /*I tried to do this but Nepal title went to the top*/
 
 aside img  {
-    width: 300px;
+    width: 250px;
     height:150px;
     float: left;
 }
