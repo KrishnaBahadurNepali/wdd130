@@ -79,7 +79,7 @@ main img   {
  }
  /*Class Selector*/ /*This also defines the section of class by .(dot) for the class family*/
  .box{
-    /*margin:1rem; /* This sets the margin 1 rem */
+    /*margin:1rem;*/
     padding: 1rem; /*this sets the padding 1 rem*/
     border:1rem solid rgba(0, 0, 0, 0.1); /*solid border with four different grading of color*/
     background-color: #facffa; /*backgraund color*/
