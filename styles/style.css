@@ -77,7 +77,8 @@ main img   {
     text-align: center;
     
  }
- /*Class Selector*/ /*This also defines the section of class by .(dot) for the class family*/
+ /*Class Selector*/
+ /*This also defines the section of class by .(dot) for the class family*/
  .box{
     /*margin:1rem;*/
     padding: 1rem; /*this sets the padding 1 rem*/
