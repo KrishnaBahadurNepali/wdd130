@@ -41,11 +41,13 @@ background-color: aqua;
   position:relative; /* No change relative */
   background-color:#4895ef;
 }
-
-/* .hero h1{
-  position:absolute; /*this is correct*/
+.hero div h1,p {
+  position:relative; /*this is correct "absolute" also correct */
+}
   /* color: #0c000c; */
-/* } */ 
+ /* }  */ 
+ /* in this section I have done extra creative by floating the home page title on the image and changes the color when
+  mouse is hovering on the text i trid to put both idead as mentioned in the course but the text was overlaped. */
 
 .banner {
   width:auto;
