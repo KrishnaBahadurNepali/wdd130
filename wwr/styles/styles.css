@@ -1,0 +1,130 @@
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: darkred;
+  --secondary-color: red;
+  --accent1-color: #7a061a;
+  --accent2-color: #4895ef;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Ibm Plex Serif";
+  --paragraph-font: IBM Plex Serif, Helvetica, sans-serif; /*this is making sure one of the font is backup
+
+  /* these colors below should be chosen from among your palette colors above */
+ /* --headline-color-on-white:rgba(254, 254, 255, 0);  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(252, 252, 253); /* headlines on a colored background */ 
+ /* --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
+  --paragraph-background-color: blue;
+  --nav-link-color: #1d050b ;
+  --nav-background-color: #7209b7;
+  --nav-hover-link-color: rgb(252, 4, 252);
+  --nav-hover-background-color: #4895ef;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  max-width: 1600px;
+  margin: top;
+  padding: 4em;
+  font-size: 16px;
+}
+.banner {
+    background-image: url('images/raftingbanner.jpg'); 
+    background-size: cover; 
+    opacity: 0.6;
+}
+
+img {
+  display: block;
+  margin:0 auto;
+  max-width:500px;
+}
+h1,h6 {
+   font-family: var(--heading-font);
+   color: var(--headline-color-on-white);
+   letter-spacing:8px;
+   word-spacing:5px;
+}
+h3{
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-red);
+  letter-spacing:8px;
+  word-spacing:5px;
+}
+h2{
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    letter-spacing:5px;
+    word-spacing:11px;
+    text-align:center;
+}
+h4{
+   font-family: var(--heading-font);
+   color: var(--headline-color-on-white);
+   letter-spacing:4px;
+   word-spacing:5px;
+   font-size:larger;
+}
+h5{
+   font-family: var(--heading-font);
+   color: var(--headline-color-on-red);
+}
+h1{font-family: var(--heading-font-18);
+    color: var(--headline-color-on-red);
+    letter-spacing:2px;
+    word-spacing:5px
+    white-space=10 
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  text-align: center;
+  color: var(--headline-color-on-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em
+}
+
+nav {
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  /*background-color: var(--nav-hover-background-color);*/
+}
+.grid-container{
+    display:grid;
+     padding:10px;
+
+}

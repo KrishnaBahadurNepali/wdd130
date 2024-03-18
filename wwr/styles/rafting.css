@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #b5179e;
+  --secondary-color: #7209b7;
+  --accent1-color: #560bad;
+  --accent2-color: #4895ef;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "roman";
+  --paragraph-font: IBM Plex Serif, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #fdfeff;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #b5179e; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #7209b7;
+  --nav-link-color: white;
+  --nav-background-color: #dbb947;
+  --nav-hover-link-color: rgb(8, 245, 245);
+  --nav-hover-background-color: #4895ef;
+}
+.banner{
+  background-color: #000000;
+  opacity:0.5;
+  text-decoration: none;
+}
+.hero img{
+display: block;
+width:100%;
+height:450px;
+opacity:0.9;
+background-color: aqua;
+} /*this is no change*/ 
+.hero {
+  display: block;
+  width: 100%;;
+  height: auto;
+  position:relative; /* No change relative */
+  background-color:#4895ef;
+}
+
+/* .hero h1{
+  position:absolute; /*this is correct*/
+  /* color: #0c000c; */
+/* } */ 
+
+.banner {
+  width:auto;
+  height:122px;
+  position:relative;
+  opacity:1;
+}
+.banner nav a{
+text-emphasis-color: var(--headline-color-on-white);
+color: aliceblue;
+text-decoration: none;
+padding: 5rem;
+font-size:18px;
+}
+.banner nav a:hover {
+  color: var(--nav-hover-link-color);
+}
+/* .happy-image p {
+position:absolute;
+float:left;
+} */
+
+/* grid-container {
+  position: relative;
+} */
+.happy-image img {
+  float:right;
+  width: 200px;;
+  height:"auto";
+}
+/* main section img{
+  width:"10px";
+  height:"auto";
+} */

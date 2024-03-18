@@ -1,0 +1,134 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #b5179e;
+  --secondary-color: #7209b7;
+  --accent1-color: #560bad;
+  --accent2-color: #4895ef;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "roman";
+  --paragraph-font: IBM Plex Serif, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #fdfeff;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #b5179e; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #7209b7;
+  --nav-link-color: white;
+  --nav-background-color: #dbb947;
+  --nav-hover-link-color: rgb(8, 245, 245);
+  --nav-hover-background-color: #4895ef;
+}
+
+  header {
+    text-align:center;
+    color: var(--headline-color-on-color);
+  }
+    /* background-color: var(--paragraph-background-color);  */
+  /* body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 18px;
+    text-align: center;
+  } */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    text-decoration-color: #dbb947;
+    text-align:center;
+  }
+  /* p{
+    float: right;
+  } */
+  /* main { 
+    max-width: 2000px;   
+  }  */
+
+  /* nav {
+    text-shadow: var(--nav-background-color);
+    opacity:var(--accent1-color);
+  } */
+
+    /*background-color: var(--nav-hover-background-color);*/
+  /* This can remove the underline withing the social link */
+  /* .sociallink {
+  text-decoration: none;
+  position: inherit;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #333;
+  }  */
+
+ .hero {
+    display: block;
+    width: 100%;;
+    height: auto;
+    position:relative; /* No change relative */
+    background-color:#4895ef;
+    opacity:1;
+  }
+  .hero img{
+  float:right;
+  }
+  article {
+    position:absolute;
+    text-align:justify;
+  }
+  /* section {
+    position:end;
+  } */
+  /* p {
+    float: left;
+  } */
+
+ .banner {
+  background-image: url('images/raftingbanner.jpg'); /*I have created this for main background*/
+  background-size: cover; 
+  width:auto;
+  height:300px;
+  opacity: 0.6;
+  position:relative;
+ }
+ .banner img {
+  float: left;
+ }
+  .banner a {
+  padding:3rem;
+  margin: auto;
+  color: rgb(243, 241, 240);
+  font-size:100%;
+  float: inline-end;
+  text-decoration: none;
+  }
+  .banner nav a:hover {
+    color: var(--nav-hover-link-color);
+  }
+  /* .paragraph {
+  text-align:inherit;
+  } */
+  /* float:inline-end; */
+  /* text-align:left;
+  .container img {
+  position: inherit;
+  }
+.sociallink a {
+  text-decoration: none;
+}
+ /* .sociallink nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+} */
+ /* .banner nav a{
+  color: black;
+ } */
