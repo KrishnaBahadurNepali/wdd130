@@ -73,8 +73,8 @@ float:left;
 } */
 .happy-image img {
   float:right;
-  width: 200px;;
-  height:"auto";
+  width: 200px;
+  height:auto;
 }
 /* main section img{
   width:"10px";
