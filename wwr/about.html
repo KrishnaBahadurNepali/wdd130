@@ -7,6 +7,18 @@
     <meta name="description" content="Krishna Bahadur Nepali| WDD 130 | puspose: To build personal website white water rafting ">
     <meta name="author" content="Krishna Bahadur Nepali" > 
     <link type="text/css" rel="stylesheet" href="styles/rafting.css">
+    <style>.grid-container {
+        display:flex;
+        justify-content:space-around;
+        grid-template-columns:100px 100px 100px;
+        gap:10px;
+        background-color: #2196f3;
+        padding: 10px;
+    }
+    .child1 {
+        grid-template-columns: 1 / span 2;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -17,12 +29,14 @@
             <!-- <h1>Thopal Khola Site Plan</h1>
             <h2>Krishna Nepali</h2>
             <h2>WDD 130</h2> -->
-            <nav>
-                <a href="index.html">Home page</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips information</a>
-                <a href="contact.html">Contact Us</a>
+            <nav><div class="grid-container">
+                <div class="child1"><a href="index.html">Home page</a></div>
+                <div class="child2"><a href="about.html">About Us</a></div>
+                <div class="child3"><a href="trips.html">Trips information</a></div>
+                <div class="child4"><a href="contact.html">Contact Us</a></div>
+
                 <!-- <a href="#">Gallery</a> We also ned galary for the photos for each page   -->
+            </div>
             </nav>
             <!-- </div> -->
         </div>

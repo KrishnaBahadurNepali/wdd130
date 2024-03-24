@@ -7,16 +7,24 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
 nav a {
-    color:white;
+    color:#fff; /* shorthand for white */
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
 h1{
     color: steelblue; 
+    text-decoration: underline;
 }
 
 img {
@@ -27,7 +35,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
+.box p {
     color: rgb(248, 9, 128);
     padding: 10px;
     margin: 1rem auto;
@@ -85,6 +93,25 @@ main img   {
     border:1rem solid rgba(0, 0, 0, 0.1); /*solid border with four different grading of color*/
     background-color: #facffa; /*backgraund color*/
     color: #000; /*sets the colors*/
+    width: auto;  /*changed the wide into auto */
   
  }
+header,footer,.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column:2/3;
+    margin:1rem;
+}
+aside{
+    width: 20rem;
+    position:relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
