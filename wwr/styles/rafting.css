@@ -36,7 +36,7 @@ background-color: aqua;
 } /*this is no change*/ 
 .hero {
   display: block;
-  width: 100%;;
+  width:auto;
   height: auto;
   position:relative; /* No change relative */
   background-color:#4895ef;
@@ -50,10 +50,16 @@ background-color: aqua;
   mouse is hovering on the text i trid to put both idead as mentioned in the course but the text was overlaped. */
 
 .banner {
+  display: flex;
+  border-bottom: 1px solid #ccc;
   width:auto;
   height:132px;
   position:relative;
   opacity:1;
+  margin: 1rem auto;
+  align-items: center; /* this can align the item like home etc on the centre */
+  grid-template-columns: 120px 1fr 2fr;
+  /* max-width: 1000px; */
 }
 .banner nav a{
 text-emphasis-color: var(--headline-color-on-white);
@@ -123,4 +129,11 @@ button{
   font-size: 18px;
   line-height: 1.5;
 
+} */
+/* header{
+  
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	max-width: 1000px;
 } */

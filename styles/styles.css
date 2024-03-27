@@ -36,7 +36,7 @@ img {
 }
 
 .box p {
-    color: rgb(248, 9, 128);
+    color: rgb(12, 4, 8);
     padding: 10px;
     margin: 1rem auto;
     text-align:left;
@@ -91,7 +91,7 @@ main img   {
     /*margin:1rem;*/
     padding: 1rem; /*this sets the padding 1 rem*/
     border:1rem solid rgba(0, 0, 0, 0.1); /*solid border with four different grading of color*/
-    background-color: #facffa; /*backgraund color*/
+    background-color: #faecfa; /*backgraund color*/
     color: #000; /*sets the colors*/
     width: auto;  /*changed the wide into auto */
   
@@ -113,5 +113,6 @@ aside{
     position:relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    height: 710px;
 }
 
