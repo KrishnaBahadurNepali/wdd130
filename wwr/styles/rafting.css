@@ -23,23 +23,31 @@
   --nav-hover-background-color: #4895ef;
 }
 .banner{
-  background-color: #000000;
   opacity:0.5;
-  text-decoration: none;
+  text-decoration:none;
+  display: flex;
+  /* border-bottom:1px solid #3d6ef5; */
+  width:auto;
+  height:124px;
+  position:relative;
+  opacity:1;
+  margin:0.1rem auto;
+  align-items: center; /* this can align the item like home etc on the centre */
+  grid-template-columns: 120px 1fr 2fr;
 }
 .hero img{
 display: block;
 width:100%;
 height:450px;
 opacity:0.9;
-background-color: aqua;
+background-color:#d3d3d3;
 } /*this is no change*/ 
 .hero {
   display: block;
   width:auto;
   height: auto;
   position:relative; /* No change relative */
-  background-color:#4895ef;
+  /* background-color:#d3d3d3; */
 }
 .hero div h1,p {
   position:relative; /*this is correct "absolute" also correct */
@@ -48,24 +56,11 @@ background-color: aqua;
  /* }  */ 
  /* in this section I have done extra creative by floating the home page title on the image and changes the color when
   mouse is hovering on the text i trid to put both idead as mentioned in the course but the text was overlaped. */
-
-.banner {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-  width:auto;
-  height:132px;
-  position:relative;
-  opacity:1;
-  margin: 1rem auto;
-  align-items: center; /* this can align the item like home etc on the centre */
-  grid-template-columns: 120px 1fr 2fr;
-  /* max-width: 1000px; */
-}
 .banner nav a{
 text-emphasis-color: var(--headline-color-on-white);
-color: aliceblue;
+background-color:#d3d3d3;
 text-decoration: none;
-padding: 5rem;
+padding: 2.5rem;
 font-size:18px;
 }
 .banner nav a:hover {
@@ -76,13 +71,14 @@ position:absolute;
 float:left;
 } */
 
-/* grid-container {
-  position: relative;
-} */
 .happy-image img {
   float:right;
-  width: 200px;
-  height:auto;
+  width:auto;
+  height:100px;
+}
+.happy-image {
+  display:block;
+  background-color: #e0ecf8;
 }
 /* main section img{
   width:"10px";
@@ -91,11 +87,18 @@ float:left;
 .flex1 {
   display:flex;
   flex-direction:column;
-  flex-wrap: wrap;
+  background-color: #e0ecf8;
+  padding:5px;
 }
 .flex2 {
-  display:flex;
- flex-direction: column;
+ background-color: #e0ecf8;
+ flex-direction:row;
+ margin:0 auto;
+ 
+}
+body {
+  max-width: 840px;
+  margin: 0 auto;
 }
 /* .flex2{
 flex-wrap: wrap;
@@ -115,15 +118,16 @@ flex:200px    this means eaxh article 200px wide
 /* article:nth-last-of-type(3){ */
   /* flex:2 200px; for 2 flex 200px  and remaininf space equally distributed  */
 /* }  */
-/* div {
+div {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: rgba(225, 225,225,0.5);
 }
-button:first-child{
+/* button:first-child{
   order:1;
-}
-button{
+} */
+/* button{
   flex:1 auto;
   margin: 5px;
   font-size: 18px;
@@ -133,7 +137,7 @@ button{
 /* header{
   
 	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
+	grid-template-columns: 855px 1fr 2fr;
 	align-items: center;
-	max-width: 1000px;
 } */
+
