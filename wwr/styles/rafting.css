@@ -115,6 +115,14 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+.grid-container {
+  display:flex;
+  justify-content:space-evenly;
+  grid-template-columns:100px 100px 100px;
+  gap:10px;
+  background-color:rgb(255, 255, 255);
+  padding:10px;
+}
 /* figure {
   border: thin #c0c0c0 solid;
   display: flex;
