@@ -105,6 +105,9 @@ float:left;
   flex-flow:row;
   margin:0 auto;
 }
+.flex2 img{
+  padding: 2px;
+}
 figcaption {
   background-color: #222;
   color: #fff;
@@ -115,9 +118,9 @@ figcaption {
 /* figure {
   border: thin #c0c0c0 solid;
   display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
+  flex-flow:row;
+  padding:1px;
+  max-width: 20px;
   margin: auto;
 } */
 body {
