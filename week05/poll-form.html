@@ -21,6 +21,29 @@
             <fieldset>
                 <legend>Questions</legend>  <!--The form elements will go here-->
             </fieldset>
+            <!--This is also other way-->
+            <!-- <fieldset>
+                <legend>Contact Information</legend> 
+                <label>Full Name:<input type="text" name="fullname"></label>
+                <label>Email:<input type="email" name="useremail"></label>Email:</label>
+            </fieldset>-->
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="broweser">What is your favorite internet broweser?</label>
+                <select id="broweser" name="broweser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea> 
+            </fieldset>
+            <button type="submit">Submit Poll</button>       
         </form>
 
     
