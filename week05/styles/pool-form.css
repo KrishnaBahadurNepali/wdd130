@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #b5179e;
+  --secondary-color: #7209b7;
+  --accent1-color: #560bad;
+  --accent2-color: #4895ef;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "roman";
+  --paragraph-font: IBM Plex Serif, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #fdfeff;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #b5179e; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #7209b7;
+  --nav-link-color: white;
+  --nav-background-color: #dbb947;
+  --nav-hover-link-color: rgb(8, 245, 245);
+  --nav-hover-background-color: #4895ef;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #fff;
+}
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+h1{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset{
+    display:grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;    
+}
+label,input,button,select, textarea {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+label{
+    text-align: right;
+    padding-right:1rem;
+}
+input,select,textarea{
+    padding: 0.5rem;
+    font-size:1.1rem;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: darkgreen;
+}
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2,.column3,.column4{
+    grid-template-columns: 1fr, 2fr;
+}
