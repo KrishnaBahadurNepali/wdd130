@@ -68,7 +68,7 @@ label,input,button,select, textarea {
     font-family: Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
 }
 label{
-    text-align: right;
+    text-align:left;
     padding-right:1rem;
 }
 input,select,textarea{
@@ -100,14 +100,27 @@ footer{
     color: #777;
     border-top: 1px solid #ccc;
 }
-.form-item{
+.form-item,.form-item-column2,.form-item-column3,.form-item-column4,.q1,.q2,.q3,.q4{
     display: grid;
     align-items: center;
+  
 }
 .column1{
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
-.column2,.column3,.column4{
+.column2,.column3,.column4,.q1,.q2,.q3,.q4{
     grid-template-columns: 1fr 2fr;
+}
+.margin{
+    display:grid;
+    width: auto;
+    height:40px;
+    background-color: black;
+    color: #fff;
+    font-size: small;
+    padding: 1.5rem;
+    float: top;
+
+    
 }

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>WDD 130 | HTML form - User Poll</title>
-    <link rel="stylesheet" href="styles/pool-form.css">
+    <link rel="stylesheet" href="styles/quiz.css">
   </head>
   <body>
     <header>
-        <h1> WDD 130 | KRISHNA BAHADUR NEPALI | HTML FORM - USER POLL</h1>
+        <h1> WDD 130 | KRISHNA BAHADUR NEPALI | HTML FORM QUIZ POLL</h1>
     </header>
     <main>
         <form>
             <fieldset>
-               <legend>Contact Information</legend> <!--The form elements will go here-->
+               <legend>Please fill the Contact Information before the quiz</legend> <!--The form elements will go here-->
                <div class="form-item">
                     <label for="fullname">Full Name:</label>
                     <input type="text" id="fullname" name="fullname">
@@ -36,7 +36,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Questions</legend>
+                <legend>First question for warm up</legend>
                 <label for="color">What is your favorite color?</label>
                 <select id="color" name="color">
                     <option value="red">Red</option>
@@ -57,20 +57,9 @@
                 <label for="feedback">Have you been to these places:</label>
                 <textarea id="feed" name="feed" rows="4" placeholder="USA, China, Thailand, Switzarland, Nepal, India, Austrelia"></textarea>   <!--The form elements will go here-->
             </fieldset>
-            <!-- <fieldset>
-                <legend>Questions</legend>  
+           
             <fieldset>
-                <legend>Questions</legend>  
-            <fieldset>
-                <legend>Questions</legend>  -->
-            <!--This is also other way-->
-            <!-- <fieldset>
-                <legend>Contact Information</legend> 
-                <label>Full Name:<input type="text" name="fullname"></label>
-                <label>Email:<input type="email" name="useremail"></label>Email:</label>
-            </fieldset>-->
-            <fieldset>
-                <legend>Questions</legend>
+                <legend>Second question for warm up</legend>
                 <label for="broweser">What is your favorite internet broweser?</label>
                 <select id="broweser" name="broweser">
                     <option value="chrome">Chrome</option>
@@ -85,6 +74,44 @@
                 <label for="feedback">List the places you have lived:</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea> 
             </fieldset>
+
+             <fieldset>
+                <legend>Questions</legend> 
+
+                <label for="q1">What is the acronysm CSS stand for?</label> 
+                <input type="text" id="q1" name="q1">
+
+                <label for="q2">How are ID and class attributes selected in CSS?</label> 
+                <input type="text" id="q2" name="q2">
+
+                <label for="q3">What is textarea use for?</label> 
+                <input type="text" id="q3" name="q3">
+
+                <label for="feedback">Which of the following is valid CSS comment?</label>
+                <select id="text" name="css">
+                    <option value="">Choose one...</option>
+                    <option value="">* CSS declaration *</option>
+                    <option value=""># CSS declaration #</option>
+                    <option value="">/* CSS declaration */</option>
+                    <option value=""><"CSS delcaration"></option>
+                    <option value=""><!-CSS declaration-></option>
+                </select>
+
+                <label for="q3">What value is the bottom margin given to this declaration?</label>
+                <div class="margin">
+                <label for="margin">margin: 10px 5px 15px;</label>
+                </div> 
+                <input type="text" id="q3" name="q3">
+
+             </fieldset>
+                <!-- <legend>Questions</legend> -->
+            <!-- <fieldset>
+                <legend>Questions</legend>
+            </fieldset>
+                <legend>Contact Information</legend> 
+                <label>Full Name:<input type="text" name="fullname"></label>
+                <label>Email:<input type="email" name="useremail"></label>Email:</label>
+            </fieldset> -->
             <button type="submit">Submit Poll</button>       
         </form>
 
