@@ -188,11 +188,11 @@ address{
 h3{
   text-decoration: underline;
 }
-.figure-with-caption{
+/* .figure-with-caption{
   display: block;
   position: relative;
-}
-.figure-with-caption figcaption {
+} */
+/* .figure-with-caption figcaption {
   position: absolute;
   bottom: 0;
   left:0;
@@ -202,5 +202,26 @@ h3{
   padding: 10px;
   text-align:left;
   
+} */
+.profile-pic {  /* this is for makinf profile picture of happy images */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 1rem;
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px #0084ff;
 }
-
+.profile-container{
+  display: flex;
+  justify-content:space-around;
+}
+.profile{
+  text-align: center;
+}
+.profile-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
