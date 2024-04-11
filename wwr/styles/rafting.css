@@ -210,6 +210,16 @@ h3{
   border: 1px solid #fff;
   box-shadow: 0 0 4px #0084ff;
 }
+
+.profile-pics {  /* this is for makinf profile picture of happy images */
+  border-radius: 50%;
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+  padding: 1rem;
+  border: 1px solid #fff;
+  box-shadow: 0 0 4px #0084ff;
+}
 .profile-container{
   display:flex;
   justify-content:space-around;
