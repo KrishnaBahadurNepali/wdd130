@@ -33,7 +33,8 @@
   opacity:1;
   margin:0.1rem auto;
   align-items: center; /* this can align the item like home etc on the centre */
-  grid-template-columns: 120px 1fr 2fr;
+  grid-template-columns: 120px 2fr 2fr;
+  background-color:#b5aadf;
 }
 /* .banner img {
   display:block;
@@ -43,7 +44,7 @@ display: block;
 width:100%;
 height:450px;
 opacity:0.9;
-background-color:#d3d3d3;
+/* background-color:#d3d3d3; */
 } /*this is no change*/ 
 .hero {
   display: block;
@@ -123,9 +124,9 @@ figcaption {
   grid-template-columns:100px 100px 100px;
   /* grid-template-rows: 10px 10px 10px; */
   gap:10px;
-  background-color:rgb(255, 255, 255);
-  padding:10px;
-
+  /* background-color:rgb(255, 255, 255); */
+  padding: 10px;
+ 
 }
 /* figure {
   border: thin #c0c0c0 solid;
@@ -150,7 +151,7 @@ div {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(225, 225,225,0.5);
+  /* background-color: rgba(225, 225,225,0.5); */
 }
 footer{
   text-align: center;
@@ -176,7 +177,7 @@ iframe{
   border: 0;
   /* width: auto;
   height: auto; */
-  width: 805px;
+  width: 840px;
   height:450px;
   margin: 0;
 }
@@ -213,8 +214,9 @@ h3{
   box-shadow: 0 0 4px #0084ff;
 }
 .profile-container{
-  display: flex;
+  display:flex;
   justify-content:space-around;
+  width: 840px;
 }
 .profile{
   text-align: center;
@@ -225,3 +227,100 @@ h3{
   font-weight: bold;
   color: #333;
 }
+
+/*This is for form */
+
+/* header,footer,.grid {
+  max-width: 840px;
+  margin: 0 auto;
+} */
+.grid {
+  display: grid;
+  align-items: center;
+}
+/* main {
+  grid-column:2/3;
+  margin:1rem;
+} */
+aside{
+  width: 20rem;
+  position:relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 710px;
+}
+
+/*This is for Form */
+form{
+  width: 840px;
+  margin: 0 auto;
+  padding: 0.1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+fieldset{
+  display:grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+}
+legend{
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3rem;    
+}
+label,input,button,select, textarea {
+  font-family: Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
+}
+label{
+  text-align:left;
+  padding-right:1rem;
+}
+input,select,textarea{
+  padding: 0.5rem;
+  font-size:1.1rem;
+}
+input[type="checkbox"]{
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+button{
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+button:hover{
+  background-color: darkgreen;
+}
+.form-item,.form-item-column2,.form-item-column3,.form-item-column4,.q1,.q2,.q3,.q4{
+  display: grid;
+  align-items: center;
+
+}
+.column1{
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+.column2,.column3,.column4,.q1,.q2,.q3,.q4{
+  grid-template-columns: 1fr 2fr;
+}
+.margin{
+  display:grid;
+  width: auto;
+  height:40px;
+  background-color: black;
+  color: #fff;
+  font-size: small;
+  padding: 1.5rem;    
+}
+
+
+
