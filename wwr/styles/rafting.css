@@ -42,7 +42,7 @@
 .hero img{
 display: block;
 width:100%;
-height:450px;
+height:400px;
 opacity:0.9;
 /* background-color:#d3d3d3; */
 } /*this is no change*/ 
@@ -101,16 +101,13 @@ float:left;
   padding: 90px;
   height: 10px;
 } */
-/* .flex2 {
+.flex2 {
   display:flex;
   background-color: #e0ecf8;
-  margin:0 auto;
-  padding: 2px;
-}  */
-.flex2{
-  display:flex;
-  flex-flow:column;
+  padding:1px;
+  flex-direction:row
 }
+ 
 figcaption {
   background-color: #222;
   color: #fff;
@@ -205,12 +202,12 @@ h3{
   
 } */
 .profile-pic {  /* this is for makinf profile picture of happy images */
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  /* border-radius: 50%; */
+  width: 108px;
+  height: 108px;
   object-fit: cover;
   padding: 1rem;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   box-shadow: 0 0 4px #0084ff;
 }
 .profile-container{
