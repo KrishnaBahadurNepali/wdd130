@@ -126,6 +126,7 @@ float:left;
 } */
 section{
   background-color: rgba(0, 0, 0, 0.1);
+  width: auto;
 }
 .flex2 {
   display:flex;
@@ -249,7 +250,8 @@ h3{
 .profile-container{
   display:flex;
   justify-content:space-around;
-  width: 840px;
+  /* width: 840px; */
+  width: auto;
 }
 .profile{
   text-align: center;
@@ -420,7 +422,8 @@ ul{
   padding: 0.2rem 
 }
 .box1{
- margin-left:520px;
+ /* margin-left:520px; */
+ margin-left: auto;
 }
 .box1 h2{
   position: absolute;
@@ -429,5 +432,7 @@ ul{
   font-size:20px;
   text-align:center;
   color: #fff;
-  
+}
+.k {
+  text-align: left;
 }
