@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Contact Us | sunshine-thopalkola-rafting</title>
-    <meta name="description" content="Krishna Bahadur Nepali | WDD 130 | puspose: To help you make a easy for the communication ">
+    <meta name="description" content="Krishna Bahadur Nepali | WDD 130 | puspose: To help you make the trip memorable and easy.">
     <meta name="author" content="Krishna Bahadur Nepali"> 
     <link type="text/css" rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -38,7 +38,7 @@
             <img src="images/raftingimg5.jpg" alt="rafting image">
             <!-- <img src="images/raftingbanner.jpg" alt="logo" height="auto" width="800px"> -->
                 <!-- <div class="container"> -->
-              <div class="floats"><h1>Sunshine Thopal-kola Rafting</h1>
+              <div class="floats"><h1>Sunshine Thopal-khola Rafting</h1>
                 <div class="side">
                   <img src="images/frangipani1.png" alt="img"> 
                 </div>
@@ -47,20 +47,44 @@
         <section class="trip-info">
             <h2>Trip Details</h2>
             <p>Date: August 20 - 22, 2024</p>
-            <p>Location: Colorado River</p>
-            <p>Duration: 3 Days</p>
-            <p>Difficulty Level: Advanced</p>
+            <p>Location: Thopal-Khola river</p>
+            <p>Duration: 1-10 Days</p>
+            <p>Difficulty Level: Easy to Advanced</p>
         </section>
         <section class="booking-form">
             <h2>Book Your Trip</h2>
             <form action="#">
+                <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                <label for="stay">Do you need reservation for night stay?</label>
+                <select id="need" name="need">
+                <option value="choice">Yes</option>
+                <option value="choice">No</option>
+                </select>
+                <label for="food-items">Choose the level of rafting</label>
+                <select id="items" name="items">
+                <option value="choose">choose....</option>
+                <option value="easy">Very eassy</option>
+                <option value="easy">Easy</option>
+                <option value="normal">Normal</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+                <option value="advance">Advance</option>
+                <option value="other">Other please specify</option>
+                <!-- <input type="checkbox" id="specific" name="specific"> -->
+                </select>
+                <label for="swim">Do you know Swiming?</label>
+                <input type="radio" id="swim" name="swim">
+                <label for="person">How many days you want to do trip?</label>
+                <input type="number" id="days" name="days">
+                <label for="feedback">List the places you want to do rafting:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Trisuli Malekhu, Trisuli Gorkha, Trisuli Dhadig, Trisuli Thopal Khola"></textarea> 
                 <button type="submit">Book Now</button>
-            </form>
-        </section>
+                </fieldset>      
+            </form>        
     </main>
     <footer>
         <p> &copy;2024 Sunshine Thopal Khola Rafting | Krishna Bahadur Nepali<!--This is for copyright symbol-->

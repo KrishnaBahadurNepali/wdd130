@@ -118,19 +118,15 @@ float:left;
 }
 .happy-image {
   display:block;
-  background-color: #e0ecf8;
+  background-color:rgba(0, 0, 0, 0.1)
 }
 /* main section img{
   width:"10px";
   height:"auto";
 } */
-/* .flex1 {
-  display:flex;
-  flex-direction:row;
-  background-color: #e0ecf8;
-  padding: 90px;
-  height: 10px;
-} */
+section{
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .flex2 {
   display:flex;
   background-color: #e0ecf8;
