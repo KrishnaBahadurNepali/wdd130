@@ -271,6 +271,10 @@ h3{
   display: grid;
   align-items: center;
 }
+.grid img {
+  height: 50px;
+  width: 50px;
+}
 /* main {
   grid-column:2/3;
   margin:1rem;
@@ -403,6 +407,9 @@ aside{
   float: left;
   padding: 0.2rem;
 }
-h1{
-  float: absolute;
+li{
+  margin: 2rem;
+}
+ul{
+  margin:0.3rem;
 }
