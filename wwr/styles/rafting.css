@@ -291,7 +291,8 @@ aside{
 
 /*This is for Form */
 form{
-  width: 840px;
+  /* width: 840px; */
+  width: auto;
   margin: 0 auto;
   padding: 0.1rem;
   border: 1px solid rgba(0,0,0,0.1);
