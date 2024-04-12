@@ -22,10 +22,16 @@
   --nav-hover-link-color: rgb(8, 245, 245);
   --nav-hover-background-color: #4895ef;
 }
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box; 
+}
+
 .banner{
   opacity:0.5;
   text-decoration:none;
-  display:flex;
+  /* display:flex; */
   /* border-bottom:1px solid #3d6ef5; */
   width:auto;
   height:124px;
@@ -34,7 +40,7 @@
   margin:0.1rem auto;
   align-items: center; /* this can align the item like home etc on the centre */
   grid-template-columns: 120px 2fr 2fr;
-  background-color:#b5aadf;
+  background-color:#ffffff;
 }
 /* .banner img {
   display:block;
@@ -68,9 +74,9 @@ p{
   mouse is hovering on the text i trid to put both idead as mentioned in the course but the text was overlaped. */
 .banner nav a{
 text-emphasis-color: var(--headline-color-on-white);
-background-color:#d3d3d3;
+/* background-color:#d3d3d3; */
 text-decoration: none;
-padding: 2.5rem;
+padding: 2rem;
 font-size:18px;
 }
 .banner nav a:hover {
@@ -203,12 +209,12 @@ h3{
 } */
 .profile-pic {  /* this is for makinf profile picture of happy images */
   /* border-radius: 50%; */
-  width: 108px;
+  width: 137px;
   height: 108px;
   object-fit: cover;
-  padding: 1rem;
-  border: 1px solid #fff;
-  box-shadow: 0 0 4px #0084ff;
+  padding:0.1rem;
+  border: 0.1px solid #fff;
+  box-shadow: 0 0 1px #0084ff;
 }
 
 .profile-pics {  /* this is for makinf profile picture of happy images */
@@ -329,5 +335,51 @@ button:hover{
   padding: 1.5rem;    
 }
 
+/* This is for home page */
+.box p {
+  color: rgb(12, 4, 8);
+  padding: 10px;
+  margin: 1rem auto;
+  text-align:left;
+}
+aside {
+  width:82.3rem; /*I tried to mantained the equal margin on both */
+  margin:1rem;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color:#eee;
+  color:#333;
+  text-align:center;
+  position: relative;
+}
+.box h2{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-size:20px;
+  text-align:center
+}  /*I tried to do this but Nepal title went to the top*/
 
-
+aside img  {
+  width: 290px;
+  height:150px;
+  float: left;
+  padding: 0.2rem;
+}
+aside{
+  width: 20rem;
+  position:relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 300px;
+}
+.paratext {
+    display: grid;
+    align-items: center;
+}
+.box img{
+  width: 260px;
+  height:130px;
+  float: left;
+  padding: 0.2rem;
+}
